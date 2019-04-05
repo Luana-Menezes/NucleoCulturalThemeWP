@@ -40,6 +40,13 @@ h6 {
 
 /*TEMP STYLES*/
 
+:target {
+  display: block!important;
+  position: relative!important;
+  top: -95px!important; 
+  visibility: hidden!important;
+}
+
 #projetos, #servicos, #parceiros, #contato, #nucleo {
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -297,13 +304,13 @@ margin: auto;
 }
 
 #projetos .carousel-caption{
-	height: 100%;
+	height: 100%!important;
 }
 
 
 .btn-projetos {
-    height: 100%;
-    width: 100%;
+    height: 100%!important;
+    width: 100%!important;
 }
 
 .tablet {

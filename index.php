@@ -13,18 +13,15 @@
 		<!-- Núcleo Cultural Produções -->
 
 		<!--ícone-->
-		<link rel="icon" type="imagem/svg" href="images/icone.svg" />
+		<link rel="icon" href="<?php bloginfo('template_directory'); ?>/images/icone.svg">
 
 		<!-- 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 
-
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
 
-
 		<link rel="stylesheet" href="css/style.css">
-		
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 
@@ -177,7 +174,7 @@
 								
 								<div class="row">
 									<div class="col-12 d-flex justify-content-center seta-baixo">
-										<a href="#texto-missao">
+										<a href="#missao-link">
 											<span>
 												<i class="fas fa-angle-double-down"></i>
 											</span>
@@ -197,8 +194,9 @@
 					</div><!--/.row-->
 
 				<!---------------------------------- Missão e Diferencial ------------------------------------------->
-					<div class="row">
+					<div class="row" id="test1">
 						<div class=" col-11 col-lg-10" id="texto-missao">
+							<a id="missao-link"></a>
 							<h3>Missão e Diferencial</h3>
 						</div><!--/.col-10 col-lg-6-->
 						
@@ -211,7 +209,7 @@
 									
 									<div class="row">
 									<div class="col-4 col-sm-2 col-md-2 col-lg-4 margin-auto seta-baixo">
-										<a href="#texto-criatividade">
+										<a href="#criativ-link">
 											<span>
 												<i class="fas fa-arrow-down"></i>
 											</span>
@@ -232,6 +230,7 @@
 					
 				<!---------------------------------- Criatividade e Estratégia ------------------------------------------->
 					<div class="row">
+						<a id="criativ-link"></a>
 						<div class=" col-11 col-lg-10" id="texto-criatividade">
 							<h3>Criatividade e Estratégia</h3>
 						</div><!--/.col-10 col-lg-6-->
@@ -366,7 +365,7 @@
 						    <div class="carousel-item active">
 						    	<img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/images/jackson-pandeiro.png" alt="Slide One">
 						    	<div class="carousel-caption">
-						    	    <button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal"></button>
+						    	    <button type="button" class="btn btn-sm btn-projetos" data-toggle="modal" data-target="#gridSystemModal"></button>
 						    	</div>
 						    </div>
 							
@@ -395,10 +394,10 @@
 												</div>
 												<div class="col-12  col-xl-7 ml-auto">
 													<div class="embed-responsive embed-responsive-16by9">
-														<!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0hsowC5JuvI" allowfullscreen></iframe> -->
-
-														<iframe width="560" height="315" src="https://www.youtube.com/embed/ZDNEtUVKikg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZDNEtUVKikg" allowfullscreen></iframe>
 													</div>
+
+													<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZDNEtUVKikg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 												</div>
 											  </div>
 											</div>
@@ -416,7 +415,7 @@
 						        <img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/images/sons-brasil.png" alt="Slide Two">
 
 						        <div class="carousel-caption">
-						        	<button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal2">
+						        	<button type="button" class="btn btn-sm btn-projetos" data-toggle="modal" data-target="#gridSystemModal2">
 						   			</button>
 						        </div>
 						</div>
@@ -446,10 +445,10 @@
 												</div>
 												<div class="col-12  col-xl-7 ml-auto">
 													<div class="embed-responsive embed-responsive-16by9">
-														<!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0hsowC5JuvI" allowfullscreen></iframe> -->
+														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lfMT1lAb2fQ" allowfullscreen></iframe> 
 
-														<iframe width="560" height="315" src="https://www.youtube.com/embed/lfMT1lAb2fQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 													</div>
+													<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/lfMT1lAb2fQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 												</div>
 											  </div>
 											</div>
@@ -467,7 +466,7 @@
 						        <img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/images/expandindo.png" alt="Slide Three">
 
 						        <div class="carousel-caption">
-						        	<button type="button" class="btn btn-projetos" data-toggle="modal" data-target="#gridSystemModal3">
+						        	<button type="button" class="btn btn-sm btn-projetos" data-toggle="modal" data-target="#gridSystemModal3">
 						        		</button>
 						        </div>
 							</div>
@@ -496,11 +495,12 @@
 													<p>O projeto é inovador em sua abordagem: englobar não só os modelos tradicionais de expressão literária, mas também aqueles que surgiram das novas interações sociais, sobretudo a partir dos saraus e movimentos culturais espalhados por SP. Portanto, as novas linguagens literárias, assim como seu público, têm espaço garantido no projeto Expandindo as Margens!</p>
 												</div>
 												<div class="col-12  col-xl-7 ml-auto">
-													<!--<div class="embed-responsive embed-responsive-16by9">
-														 <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0hsowC5JuvI" allowfullscreen></iframe> -->
+													<div class="embed-responsive embed-responsive-16by9">
+														 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0hsowC5JuvI" allowfullscreen></iframe>
+														
+													</div>
 
-														<!--<iframe  class="embed-responsive-item"  src="https://www.youtube.com/embed/0hsowC5JuvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-													</div>-->
+													<!--<iframe  class="embed-responsive-item"  src="https://www.youtube.com/embed/0hsowC5JuvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 												</div>
 											  </div>
 											</div>
@@ -519,7 +519,7 @@
 						        <img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/images/literatura.png" alt="Slide Four">
 
 						        <div class="carousel-caption">
-						        	<button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal4">
+						        	<button type="button" class="btn btn-sm btn-projetos" data-toggle="modal" data-target="#gridSystemModal4">
 						        		</button>
 						        </div>
 							</div>
@@ -549,10 +549,9 @@
 												</div>
 												<div class="col-12  col-xl-7 ml-auto">
 													<div class="embed-responsive embed-responsive-16by9">
-														<!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0hsowC5JuvI" allowfullscreen></iframe> -->
-
-														<iframe width="560" height="315" src="https://www.youtube.com/embed/NvYCvIWEVEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NvYCvIWEVEc" allowfullscreen></iframe>
 													</div>
+													<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/NvYCvIWEVEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 												</div>
 											  </div>
 											</div>
