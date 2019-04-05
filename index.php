@@ -366,8 +366,7 @@
 						    <div class="carousel-item active">
 						    	<img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/images/jackson-pandeiro.png" alt="Slide One">
 						    	<div class="carousel-caption">
-						    	    <button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal">
-									Mais informações</button>
+						    	    <button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal"></button>
 						    	</div>
 						    </div>
 							
@@ -398,7 +397,7 @@
 													<div class="embed-responsive embed-responsive-16by9">
 														<!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0hsowC5JuvI" allowfullscreen></iframe> -->
 
-														<iframe width="560" height="315" src="https://www.youtube.com/embed/73mSrkLFkHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+														<iframe width="560" height="315" src="https://www.youtube.com/embed/ZDNEtUVKikg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 													</div>
 												</div>
 											  </div>
@@ -418,7 +417,7 @@
 
 						        <div class="carousel-caption">
 						        	<button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal2">
-						        		Mais informações</button>
+						   			</button>
 						        </div>
 						</div>
 						
@@ -449,7 +448,7 @@
 													<div class="embed-responsive embed-responsive-16by9">
 														<!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0hsowC5JuvI" allowfullscreen></iframe> -->
 
-														<iframe width="560" height="315" src="https://www.youtube.com/embed/v5I5dTkYQKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+														<iframe width="560" height="315" src="https://www.youtube.com/embed/lfMT1lAb2fQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 													</div>
 												</div>
 											  </div>
@@ -468,8 +467,8 @@
 						        <img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/images/expandindo.png" alt="Slide Three">
 
 						        <div class="carousel-caption">
-						        	<button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal3">
-						        		Mais informações</button>
+						        	<button type="button" class="btn btn-projetos" data-toggle="modal" data-target="#gridSystemModal3">
+						        		</button>
 						        </div>
 							</div>
 							
@@ -521,7 +520,7 @@
 
 						        <div class="carousel-caption">
 						        	<button type="button" class="btn btn-projetos btn-sm" data-toggle="modal" data-target="#gridSystemModal4">
-						        		Mais informações</button>
+						        		</button>
 						        </div>
 							</div>
 							
@@ -552,7 +551,7 @@
 													<div class="embed-responsive embed-responsive-16by9">
 														<!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0hsowC5JuvI" allowfullscreen></iframe> -->
 
-														<iframe width="560" height="315" src="https://www.youtube.com/embed/n8UYCOV7FFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+														<iframe width="560" height="315" src="https://www.youtube.com/embed/NvYCvIWEVEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 													</div>
 												</div>
 											  </div>

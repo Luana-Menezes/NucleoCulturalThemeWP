@@ -297,21 +297,13 @@ margin: auto;
 }
 
 #projetos .carousel-caption{
-  opacity:0;
-  -webkit-transition:500ms ease-in-out;
-  -o-transition:500ms ease-in-out;
-  transition:500ms ease-in-out;
+	height: 100%;
 }
 
-#projetos .carousel-item:hover .carousel-caption{
-  opacity:1;
-}
 
 .btn-projetos {
-    font-weight: 600;
-    background-color: white;
-    color: #de4e2c;
-    border-color: #de4e20;
+    height: 100%;
+    width: 100%;
 }
 
 .tablet {
