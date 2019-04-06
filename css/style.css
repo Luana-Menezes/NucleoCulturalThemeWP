@@ -40,7 +40,7 @@ h6 {
 
 /*TEMP STYLES*/
 
-:target {
+#missao-link:target, #criativ-link:target {
   display: block!important;
   position: relative!important;
   top: -95px!important; 
@@ -311,6 +311,11 @@ margin: auto;
 .btn-projetos {
     height: 100%!important;
     width: 100%!important;
+}
+
+.btn-projetos.btn:focus   {
+	outline: none;
+	box-shadow: none;
 }
 
 .tablet {
